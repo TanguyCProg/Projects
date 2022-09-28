@@ -24,7 +24,7 @@ def get_data(date, long_min, long_max, lat_min, lat_max):
         Latitude maximale de l'encadrement
     """
 
-    Key = "QR6LDKO9H1HW"
+    Key = # Put your key of the NASA POWER API
     lien_skecth2 = "http://api.timezonedb.com/v2.1/get-time-zone?key={}&format=json&by=position&lat={}&lng={}&time={}"
     coords = []
     lien_sketch = "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min={}&latitude-max={}&longitude" \
