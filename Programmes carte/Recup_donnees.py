@@ -48,9 +48,8 @@ def get_data(date, long_min,long_max,lat_min,lat_max, liste_models):
         lat_min = min(lf_np[:,1])
         return long_min,long_max,lat_min,lat_max
 
-    Key = "QR6LDKO9H1HW"
+    Key = # Enter you key of the NASA POWER API
     lien_skecth2 ="http://api.timezonedb.com/v2.1/get-time-zone?key={}&format=json&by=position&lat={}&lng={}&time={}"
-    TOKEN = 'aWuGjOHoFzbRWTvAVmAr'
     meteo = []
     azimuth = []
     coords = []
